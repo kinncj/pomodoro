@@ -56,7 +56,7 @@ function tomatoPause() {
 
 
 function checkPause() {
-    if (count == 3300000 && tomatos < 4) {
+    if (count == 1500000 && tomatos < 4) {
         $pause.click();
 
         count = 0;
